@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import { useWindowScroll } from "react-use";
+
+import useWindowScroll from "react-use/lib/useWindowScroll";
+
 import Button from "../Button";
 
 import { Container } from "./styles";
